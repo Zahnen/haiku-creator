@@ -15,7 +15,7 @@ describe('Line', () => {
   });
 
   test('should correctly split string into words', () => {
-    expect(line.splitWord("")).toEqual(["I", "hope", "this", "test", "fail"]);
+    expect(line.splitWord("")).toEqual(["I", "hope", "this", "test", "fails"]);
   });
 
   // test('should correctly count vowels within each word', () => {
