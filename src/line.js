@@ -4,4 +4,9 @@ export default class Line {
     this.words = [];
     this.syllables = 0;
   }
+
+  splitWord() {
+    let words = (this.string).split(" ");
+    return words;
+  }
 };

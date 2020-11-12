@@ -14,9 +14,9 @@ describe('Line', () => {
     expect(line.syllables).toEqual(0);
   });
 
-  // test('should correctly split string into words', () => {
-  //   expect(line.split("")).toMatch("I", "hope", "this", "test", "fails");
-  // });
+  test('should correctly split string into words', () => {
+    expect(line.splitWord("")).toEqual(["I", "hope", "this", "test", "fail"]);
+  });
 
   // test('should correctly count vowels within each word', () => {
   //   expect("I").toEqual(1);
