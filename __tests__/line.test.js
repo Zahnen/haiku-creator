@@ -9,8 +9,8 @@ describe('Line', () => {
   });
 
   test('should correctly create a line object with string, words, and syllables', () => {
-    expect(line.string).toMatch();
-    expect(line.words).toBeUndefined([]);
+    expect(line.string).toEqual("I hope this test fails");
+    expect(line.words).toEqual([]);
     expect(line.syllables).toEqual(0);
   });
 
