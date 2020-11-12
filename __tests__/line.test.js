@@ -18,9 +18,9 @@ describe('Line', () => {
     expect(line.splitWord("")).toEqual(["I", "hope", "this", "test", "fails"]);
   });
 
-  // test('should correctly count vowels within each word', () => {
-  //   expect("I").toEqual(1);
-  // });
+  test('should correctly count vowels within a line', () => {
+    expect(line.countVowels()).toEqual(7);
+  });
 
   // test('should correctly subtract one vowel in words that contain diphthongs', () => {
   //   expect("fails").toEqual(1);
